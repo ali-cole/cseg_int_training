@@ -66,6 +66,8 @@ def fahrenheit_to_celcius(fahrenheit):
 def place_holder():
     pass
 
+def celcius_to_fahrenheit(celcius):
+    return (celcius * 9/5) + 32
 
 if __name__ == "__main__":
     import argparse
